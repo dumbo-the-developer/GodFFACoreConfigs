@@ -1,0 +1,85 @@
+kits:
+  default:
+    inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND_SWORD
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND_AXE
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: GOLDEN_APPLE
+        amount: 64
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: BOW
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: CROSSBOW
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: ARROW
+        amount: 8
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND_BOOTS
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND_LEGGINGS
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND_CHESTPLATE
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND_HELMET
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: SHIELD
+    armor:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND_BOOTS
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND_LEGGINGS
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND_CHESTPLATE
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND_HELMET
+    offhand:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: SHIELD

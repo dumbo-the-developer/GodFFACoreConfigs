@@ -1,0 +1,5 @@
+_DEFAULT_:
+  tabprefix: '%luckperms-prefix%'
+  tagprefix: '%luckperms-prefix%'
+  tabsuffix: '%afk%'
+  tagsuffix: '&7 &7(%player_colored_ping%ms&7)'

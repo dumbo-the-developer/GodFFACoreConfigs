@@ -1,0 +1,10 @@
+# License key
+licenseKey: YOUR_LICENSE_KEY
+debug: false
+hub:
+  world: world
+  x: 0
+  y: 120
+  z: 0
+  yaw: 0
+  pitch: 0

@@ -1,0 +1,29 @@
+defaultStatus: true
+
+options:
+  hard-perm-check: false
+  hard-spacing: true
+
+lang:
+  main-prefix: ' &7 '
+  not-perm: '&cYou do not have the perms to use this.'
+  not-arg: '&cThe arg {arg} does not exist or is invalid.'
+  reload: '&eThe config.yml file has been reloaded in &e{time}&7 ms.'
+
+enabled-worlds:
+  - world
+
+blocks:
+  OBSIDIAN: 20
+  RESPAWN_ANCHOR: 20
+  GLOWSTONE: 20
+  OAK_PLANKS: 20
+  COBWEB: 20
+  COBBLESTONE: 20
+  WATER: 20
+  LAVA: 20
+  RAIL: 20
+  LIGHT_BLUE_BED: 20
+entities:
+  END_CRYSTAL: 20
+  TNT_MINECART: 20

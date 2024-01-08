@@ -1,0 +1,45 @@
+title: "&8{target}'s Profiles"
+size: 9
+
+fillItems:
+  enabled: false
+  material: BLACK_STAINED_GLASS_PANE
+  name: "&f"
+  lore: []
+
+items:
+  Duel:
+    material: NETHERITE_SWORD
+    name: "&eDuel {target}"
+    slots: [ 5 ]
+    glowing: false
+    hideAttributes: false
+    customModelData: 0
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    lore:
+      - "&7Click to Duel with &e{target}"
+    leftClickCommands:
+      - "[PLAYER] duel {target}"
+    rightClickCommands:
+      - "[PLAYER] duel {target}"
+      - "[CLOSE]" 
+  lockProfile:
+    material: head;{target}
+    name: "&b{target}'s Profile"
+    slots: [ 3 ]
+    glowing: false
+    hideAttributes: false
+    customModelData: 0
+    onlyOwner: false
+    onlyVisitor: false
+    usePermission: false
+    permission: "custom.permission"
+    lore:
+      - "&7Click to check player profile"
+    leftClickCommands:
+      - "[PLAYER] pvpstats {target}"
+    rightClickCommands:
+      - "[PLAYER] pvpstats {target}"

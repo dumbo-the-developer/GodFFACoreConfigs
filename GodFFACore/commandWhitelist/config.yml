@@ -1,0 +1,33 @@
+
+# Messages use MiniMessage formatting (https://docs.adventure.kyori.net/minimessage/format)
+messages:
+  prefix: '<color:#55FFFF><bold>GodSpunky<reset> <dark_grey>➠ '
+  command_denied: <red>Unknown Command
+  subcommand_denied: <red>Unknown Command
+  no_permission: <red>Unknown Command
+  no_such_subcommand: <red>Unknown Command
+  config_reloaded: <yellow>Configuration reloaded.
+  added_to_whitelist: <yellow>Whitelisted command <gold>%s <yellow>for permission
+    <gold>%s
+  removed_from_whitelist: <yellow>Removed command <gold>%s <yellow>from permission
+    <gold>%s
+  group_doesnt_exist: <red>Unknown Command
+
+# Do not enable if you don't have issues with aliased commands.
+# This requires server restart to take effect.
+use_protocollib: false
+groups:
+  default:
+    commands:
+    - join
+    - spawn
+    - duel
+    - 1v1
+    - queue
+    - spec
+    - profile
+    - pl
+    - plugins
+    - spectate
+    subcommands:
+    - gay gay
